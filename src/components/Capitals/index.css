@@ -1,0 +1,86 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capitals-card {
+  background-color: #ffffff;
+  width: 95%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .capitals-card {
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.heading {
+  font-size: 26px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #1b0b64;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+.capital-select {
+  margin-right: 5px;
+  margin-bottom: 10px;
+  width: 150px;
+  background-color: #ffffff;
+  border: 1px solid #cbd2d9;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #000000;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .capital-select {
+    font-size: 20px;
+  }
+}
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #078136;
+}
+
+@media screen and (min-width: 768px) {
+  .label {
+    font-size: 16px;
+  }
+}
+.country {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Roboto';
+  color: #aa0f0f;
+}
+
+@media screen and (min-width: 768px) {
+  .country {
+    font-size: 20px;
+  }
+}
